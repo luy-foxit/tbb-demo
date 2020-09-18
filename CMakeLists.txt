@@ -8,7 +8,7 @@ set(TARGET_ARCH x86_64)
 set(PROJECT_BUILD_ROOT ${PROJECT_BINARY_DIR})
 set(TBB_CMAKE_BUILD_DIR tbb_cmake_build)
 
-set(CMAKE_BUILD_TYPE Debug)
+#set(CMAKE_BUILD_TYPE Debug)
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Release")
 endif()
