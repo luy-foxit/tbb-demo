@@ -1,0 +1,8 @@
+*.bk
+*.jpg
+*.zip
+*.o
+build*
+*.log
+*.swp
+
