@@ -9,3 +9,13 @@ target_link_libraries(
     ${TBB_IMPORTED_TARGETS}
 )
 
+add_executable(
+    demo_parallel_reduce
+    demo_parallel_reduce.cpp
+)
+
+target_link_libraries(
+    demo_parallel_reduce
+    ${TBB_IMPORTED_TARGETS}
+)
+
