@@ -1,2 +1,3 @@
-add_subdirectory(parallelizing_simple_loop)
+add_subdirectory(paral_simple_loop)
+add_subdirectory(paral_dataflow_graph)
 
